@@ -1,0 +1,7 @@
+Build from phone via GitHub Actions
+1. Extract ZIP on your phone.
+2. On github.com, sign in and create a repository named nvn-reporter-studio.
+3. Upload the contents of this project folder to the repository root. Include the .github/workflows/build-apk.yml file (GitHub mobile upload may need Chrome Desktop site).
+4. Repository > Actions > Build NVN APK > Run workflow.
+5. Open completed workflow run, scroll to Artifacts, download NVN-debug-apk, extract it, and install app-debug.apk.
+This cloud build file is provided as a setup aid. It has not been run or verified remotely in this chat.
